@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mineplus",
+  "version": "${version}",
+
+  "name": "MinePlus",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Moder0"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mod_logo/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.moder0.mineplus.MinePlus"
+    ],
+    "client": [
+      "net.moder0.mineplus.MinePlusClient"
+    ]
+  },
+  "mixins": [
+    "mineplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
