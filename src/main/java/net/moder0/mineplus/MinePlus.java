@@ -1,6 +1,8 @@
 package net.moder0.mineplus;
 
 import net.fabricmc.api.ModInitializer;
+import net.moder0.mineplus.block.ModBlocks;
+import net.moder0.mineplus.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +13,7 @@ public class MinePlus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

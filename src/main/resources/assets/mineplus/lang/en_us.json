@@ -1,0 +1,11 @@
+{
+  "item.mineplus.raw_silver": "Raw Silver",
+  "item.mineplus.silver_ingot": "Silver Ingot",
+
+  "block.mineplus.silver_block": "Block of Silver",
+  "block.mineplus.silver_ore": "Silver Ore",
+  "block.mineplus.raw_silver_block": "Block of Raw Silver",
+  "block.mineplus.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "itemGroup.mineplus.mineplus": "Mineplus"
+}
