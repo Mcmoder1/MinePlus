@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.moder0.mineplus.MinePlus;
+import net.moder0.mineplus.item.custom.MetalDetectorItem;
 
 public class ModItems {
 
@@ -15,6 +16,8 @@ public class ModItems {
             ("raw_silver", new Item(new FabricItemSettings().group(ModItemGroup.MINEPLUS)));
      public static final Item SILVER_INGOT = registerItem
             ("silver_ingot", new Item(new FabricItemSettings().group(ModItemGroup.MINEPLUS)));
+    public static final Item METAL_DETECTOR = registerItem
+            ("metal_detector", new MetalDetectorItem(new FabricItemSettings().group(ModItemGroup.MINEPLUS).maxCount(1)));
     //-----------------------------------------------------------------------------------------
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(MinePlus.MOD_ID, name), item);

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "mineplus:silver_ingot"
+    },
+    "0": {
+      "item": "minecraft:red_concrete"
+    },
+    "/": {
+      "item": "minecraft:sticks"
+    }
+  },
+  "pattern": [
+    "/  ",
+    " / ",
+    "0#0"
+  ],
+  "result": {
+    "item": "mineplus:metal_detector"
+  }
+}
