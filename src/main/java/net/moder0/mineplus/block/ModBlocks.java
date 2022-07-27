@@ -25,13 +25,13 @@ public class ModBlocks {
 //---------------------------------------------------------------------------------------
 
     public static final Block SILVER_BLOCK = registerBlock
-            ("silver_block", new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()), ModItemGroup.MINEPLUS);
+            ("silver_block", new Block(FabricBlockSettings.of(Material.METAL).strength(7f).requiresTool()), ModItemGroup.MINEPLUS);
 
     public static final Block SILVER_ORE = registerBlock
-            ("silver_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.MINEPLUS);
+            ("silver_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.MINEPLUS);
 
     public static final Block RAW_SILVER_BLOCK = registerBlock
-            ("raw_silver_block", new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()), ModItemGroup.MINEPLUS);
+            ("raw_silver_block", new Block(FabricBlockSettings.of(Material.METAL).strength(7f).requiresTool()), ModItemGroup.MINEPLUS);
 
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock
             ("deepslate_silver_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.MINEPLUS);
